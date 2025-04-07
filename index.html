@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinchan: Shiro and the Coal Town Game</title>
+</head>
+<body>
+    <!-- 主页横幅图片 -->
+    <center>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <!-- 主横幅图片 -->
+                <td width="80%">
+                    <img src="assets/images/shin-chan-banner.jpg" alt="Shinchan Banner" width="100%">
+                </td>
+                <!-- 并列的图片 -->
+                <td width="20%">
+                    <img src="assets/images/naughtiest-son.jpg" alt="Naughtiest Son" width="100%">
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+    <!-- 导航链接 -->
+    <center>
+        <div>
+            <h2>
+                <a href="#game">Shinchan: Shiro and the Coal Town Game</a> | 
+                <a href="#characters">Characters</a> | 
+                <a href="#favorite">Who's your favorite?</a>
+            </h2>
+        </div>
+    </center>
+    
+    <!-- 游戏标题 -->
+    <center>
+        <div>
+            <h1>Shinchan: Shiro and the Coal Town</h1>
+            <p>(Available on: Nintendo Switch and Windows PC)</p>
+        </div>
+    </center>
+    
+    <!-- 游戏视频部分 -->
+    <center>
+        <div id="game">
+            <h2>Game Trailer</h2>
+            <video width="800" controls>
+                <source src="assets/videos/game-trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </center>
+    
+    <!-- 角色部分 - 2行3列布局 -->
+    <center>
+        <div id="characters">
+            <h2>Main Characters</h2>
+            
+            <!-- 第一行：3个角色 -->
+            <table width="100%" cellpadding="20" cellspacing="0">
+                <tr>
+                    <!-- 角色1: Shinchan -->
+                    <td width="33%" align="center" valign="top">
+                        <h3>Shinnosuke Nohara (Shinchan)</h3>
+                        <img src="assets/images/shinchan.jpg" alt="Shinchan" width="200">
+                        <p>The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips.</p>
+                    </td>
+                    
+                    <!-- 角色2: Misae (Mom) -->
+                    <td width="33%" align="center" valign="top">
+                        <h3>Misae Nohara (Mom)</h3>
+                        <img src="assets/images/character-misae.webp" alt="Misae" width="200">
+                        <p>Shinchan's short-tempered but loving mother, always trying to keep him in line.</p>
+                    </td>
+                    
+                    <!-- 角色3: Hiroshi (Dad) -->
+                    <td width="33%" align="center" valign="top">
+                        <h3>Hiroshi Nohara (Dad)</h3>
+                        <img src="assets/images/hiroshi.jpg" alt="Hiroshi" width="200">
+                        <p>The laid-back father who works at a company and enjoys his evening beer.</p>
+                    </td>
+                </tr>
+                
+                <!-- 第二行：3个角色 -->
+                <tr>
+                    <!-- 角色4: Himawari -->
+                    <td width="33%" align="center" valign="top">
+                        <h3>Himawari (Sister)</h3>
+                        <img src="assets/images/himawari.jpg" alt="Himawari" width="200">
+                        <p>The youngest of the Noharas. Loves shiny objects and brand-name goods.</p>
+                    </td>
+                    
+                    <!-- 角色5: Shiro -->
+                    <td width="33%" align="center" valign="top">
+                        <h3>Yukino Nohara (Shiro)</h3>
+                        <img src="assets/images/shiro.jpg" alt="Shiro" width="200">
+                        <p>The family dog — small, fluffy, and sometimes the most sensible member.</p>
+                    </td>
+                    
+                    <!-- 角色6: Toru Kazama -->
+                    <td width="33%" align="center" valign="top">
+                        <h3>Toru Kazama</h3>
+                        <img src="assets/images/kazama.jpg" alt="Toru Kazama" width="200">
+                        <p>The smart and responsible friend of Shinchan, often the voice of reason.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    
+    <!-- 最喜欢的角色表单 -->
+    
+        <div id="favorite">
+            <h2>Who's your favorite?</h2>
+            
+            <form>
+                <div>
+                    <label>Who's your favorite character?</label><br>
+                    <select>
+                        <option>Shinchan</option>
+                        <option>Misae (Mom)</option>
+                        <option>Hiroshi (Dad)</option>
+                        <option>Himawari (Sister)</option>
+                        <option>Shiro</option>
+                        <option>Toru Kazama</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label>Character not in the list? Write their name below:</label><br>
+                    <input type="text" placeholder="Enter character name">
+                </div>
+                
+                <div>
+                    <label>Why do you like this character?</label><br>
+                    <textarea rows="3" cols="50" placeholder="State your reasons in a couple of lines..."></textarea>
+                </div>
+                
+                <h3>Tell us a bit more about yourself</h3>
+                
+                <div>
+                    <label>Your Name:</label><br>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                
+                <div>
+                    <label>Your Gender:</label><br>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+                
+                <div>
+                    <label>Your Date of Birth:</label><br>
+                    <input type="text" placeholder="dd.mm.yyyy">
+                </div>
+                
+                <div>
+                    <label>Your Email:</label><br>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+    
+    <!-- 页脚 -->
+    <center>
+        <footer>
+            <p>© 2025 Programming4</p>
+            <p>Get in touch with us: <a href="mailto:shinchan-lovers@justlearninghtml.com">shinchan-lovers@justlearninghtml.com</a></p>
+        </footer>
+    </center>
+</body>
+</html>
